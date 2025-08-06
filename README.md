@@ -1,12 +1,17 @@
 # Intro component with sign up form
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).  
+![Design preview for the Intro component with sign up form coding challenge](./preview.jpg)
+
+## Welcome! 👋
+
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
+
+**It is a pixel perfect project using Vite, HTML, CSS and JavaScript.**
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -15,8 +20,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,27 +33,23 @@ Users should be able to:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
-### Screenshot
-
-![](./preview.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ferfalcon/intro-component-with-signup-form](https://github.com/ferfalcon/intro-component-with-signup-form)
+- Live Site URL: [https://ferfalcon.github.io/intro-component-with-signup-form/](https://ferfalcon.github.io/intro-component-with-signup-form/)
 
 ## My process
 
 ### Built with
 
+- [Vite](https://vite.dev//) - Build tool
+- [GitHub Pages](https://pages.github.com/) - Deploy
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Javascript - Check form
 
 ### What I learned
 
@@ -78,14 +77,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Fonts - [Google Fonts](https://fonts.google.com/)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [ferfalcon.com](http://ferfalcon.com/)
+- LinkedIn - [Fernando Falcon](https://www.linkedin.com/in/fernandofalcon/)
+- Frontend Mentor - [@ferfalcon](https://www.frontendmentor.io/profile/ferfalcon/)
 
 ## Acknowledgments
 

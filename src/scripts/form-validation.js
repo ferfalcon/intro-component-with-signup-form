@@ -16,4 +16,14 @@ export function validateForm(form) {
             input.addEventListener('input', checkEmail);
         }
     });
+
+    // Start listening the form
+    // And check errors on submit
+    form.addEventListener('submit', (event) => {
+        const inputsWithError = form.querySelectorAll('.validation-error')
+
+        if (inputsWithError.length) {
+            event.preventDefault();
+        }
+    })
 }

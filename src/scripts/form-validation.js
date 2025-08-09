@@ -1,4 +1,4 @@
-import { checkInputEmptyness } from './check-emptyness.js';
+import { checkInputEmptiness } from './check-emptiness.js';
 import { checkEmail } from './check-email.js'
 
 export function validateForm(form) {
@@ -8,17 +8,17 @@ export function validateForm(form) {
     // Start listening all required inputs
     // And check emptyness on blur and input
     inputsToValidate.forEach(input => {
-        input.addEventListener('blur', checkInputEmptyness);
-        input.addEventListener('input', checkInputEmptyness);
+        input.addEventListener('blur', checkInputEmptiness);
+        input.addEventListener('input', checkInputEmptiness);
 
-        if (input.id === 'email') {
+        if (input.type === 'email') {
             input.addEventListener('blur', checkEmail);
             input.addEventListener('input', checkEmail);
         }
     });
 
     // Start listening the form
-    // And check errors on submit
+    // And check input with errors on submit
     form.addEventListener('submit', (event) => {
         const inputsWithError = form.querySelectorAll('.validation-error')
 

@@ -1,0 +1,11 @@
+.main-banner {
+    font-size: .938rem;
+    letter-spacing: .016rem;
+    line-height: 1.75;
+    text-align: center;
+    color: var(--netral-100);
+    background: var(--secondary-color-500);
+    border-radius: .625rem;
+    padding: 1.11rem 3rem;
+    box-shadow: 0 .5rem 0 0 hsl(0, 0%, 0%, .15);
+}

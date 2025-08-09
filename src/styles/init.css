@@ -20,12 +20,11 @@ body {
 }
 
 img {
-  /* Scale down images to fit on the screen*/
   max-inline-size: 100%;
-
-  /* Preserves images' aspect ratio */
   block-size: auto;
-
-  /* Prevent squashing and stretching */
   object-fit: cover;
+}
+
+input, textarea, button {
+    font-family: inherit;
 }

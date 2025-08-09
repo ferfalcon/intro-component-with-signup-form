@@ -2,6 +2,7 @@ body {
     background-image: url('./../../pixel-perfect-test/Mobile.png');
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: initial;
 
     @media (min-width: 48rem) {
         background-image: url('./../../pixel-perfect-test/Tablet.png');

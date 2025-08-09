@@ -4,6 +4,7 @@
     margin: 5.55rem 1.5rem auto;
 
     @media (min-width: 48rem) {
+        margin-top: 5.35rem;
         margin-inline: auto;
         max-width: 33.75rem;
     }

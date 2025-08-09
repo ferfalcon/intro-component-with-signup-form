@@ -5,11 +5,19 @@
     border-radius: .625rem;
     box-shadow: 0 .5rem 0 0 hsl(0, 0%, 0%, .15);
     padding: 1.5rem;
+
+    @media (min-width: 48rem) {
+        padding: 2rem 2.5rem;
+    }
 }
 
 .main-form__form {
     display: grid;
     gap: 1rem;
+
+    @media (min-width: 48rem) {
+        gap: 1.4rem;
+    }
 }
 
 .main-form__input {
@@ -60,5 +68,9 @@
     a {
         color: var(--main-color-500);
         text-decoration: none;
+    }
+
+    @media (min-width: 48rem) {
+        margin-top: -.1rem;
     }
 }

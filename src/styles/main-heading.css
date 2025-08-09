@@ -17,9 +17,10 @@
 }
 
 .main-copy {
-    line-height: 1.65;
+    line-height: 1.64;
     text-align: center;
     color: var(--neutral-100);
+    margin-block: 1.45rem auto;
 
     @media (min-width: 48rem) {
     }

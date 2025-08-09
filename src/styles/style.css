@@ -6,3 +6,6 @@
 @import url(main-form.css);
 @import url(main-heading.css);
 @import url(main-banner.css);
+
+/* Uncomment the following to test with a screenshot from the figma file */
+@import url(pixel-perfect-test.css);

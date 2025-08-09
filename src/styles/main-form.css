@@ -55,7 +55,8 @@
     text-align: center;
     line-height: 1.9;
     color: var(--neutral-300);
-
+    margin-top: -.6rem;
+    
     a {
         color: var(--main-color-500);
         text-decoration: none;

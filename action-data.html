@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="/src/styles/style.css" />
 </head>
 <body>
-    <main>
-        <h1>Submited data</h1>
-        <div id='recievedData'></div> 
+    <main class="main-wrapper">
+        <div>
+            <h1 class="main-heading">Submited data</h1>
+            <div class="main-copy" id='recievedData'></div> 
+        </div>
     </main>
-    <footer class="visually-hidden">
-        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.ferfalcon.com/" target="_blank">Fer Falcon</a>.</p>
-    </footer>
     <script>
         const recievedData = document.getElementById('recievedData')
         new URLSearchParams(window.location.search).forEach((value, name) => {

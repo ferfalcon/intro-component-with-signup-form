@@ -20,7 +20,7 @@ export function validateForm(form) {
     // Start listening the form
     // And check input with errors on submit
     form.addEventListener('submit', (event) => {
-        const inputsWithError = form.querySelectorAll('.validation-error')
+        const inputsWithError = form.querySelectorAll('[data-validation]')
 
         if (inputsWithError.length) {
             event.preventDefault();

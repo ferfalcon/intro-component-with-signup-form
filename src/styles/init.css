@@ -20,7 +20,7 @@ body {
     background-image: url(/bg-intro-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-color: #FF7979;
 
     @media (min-width: 90rem) {

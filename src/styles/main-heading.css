@@ -4,7 +4,7 @@
     line-height: 1.30;
     text-align: center;
     margin-block: 0 .65rem;
-    color: var(--netral-100);
+    color: var(--neutral-100);
 
     @media (min-width: 48rem) {
         font-size: 3.125rem;
@@ -19,7 +19,7 @@
 .main-copy {
     line-height: 1.65;
     text-align: center;
-    color: var(--netral-100);
+    color: var(--neutral-100);
 
     @media (min-width: 48rem) {
     }

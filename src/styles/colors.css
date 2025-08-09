@@ -1,11 +1,15 @@
 :root {
     --main-color-500: hsl(0, 100%, 74%);
 
+    --accent-color-500: hsl(154, 59%, 51%);
+
     --secondary-color-500: hsl(247, 32%, 49%);
 
-    --netral-100: hsl(0, 0%, 100%);
-    --netral-200: hsl(246, 25%, 77%);
-    --netral-900: hsl(249, 10%, 26%);
+    --neutral-100: hsl(0, 0%, 100%);
+    --neutral-200: hsl(0, 0%, 87%);
+    --neutral-300: hsl(246, 25%, 77%);
+    --neutral-900: hsl(249, 10%, 26%);
+    --neutral-900-placeholder: hsl(249, 10%, 26%, .75);
 
-    --error-400: hsl(354, 100%, 66%);
+    --error-400: hsl(0, 100%, 74%);
 }

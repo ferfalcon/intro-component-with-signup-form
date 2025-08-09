@@ -1,0 +1,30 @@
+.main-heading {
+    font-size: 1.75rem;
+    letter-spacing: -.01rem;
+    line-height: 1.30;
+    text-align: center;
+    margin-block: 0 .65rem;
+    color: var(--netral-100);
+
+    @media (min-width: 48rem) {
+        font-size: 3.125rem;
+        margin-block: 0 1.15rem;
+    }
+
+    @media (min-width: 90rem) {
+        text-align: initial;
+    }
+}
+
+.main-copy {
+    line-height: 1.65;
+    text-align: center;
+    color: var(--netral-100);
+
+    @media (min-width: 48rem) {
+    }
+
+    @media (min-width: 90rem) {
+        text-align: initial;
+    }
+}

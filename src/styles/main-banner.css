@@ -9,4 +9,8 @@
     background: var(--secondary-color-500);
     border-radius: .625rem;
     box-shadow: 0 .5rem 0 0 hsl(0, 0%, 0%, .15);
+
+    @media (min-width: 90rem) {
+        margin-top: 1.45rem;
+    }
 }

@@ -13,6 +13,7 @@
     }
 
     @media (min-width: 90rem) {
+        margin-top: 1.45rem;
         text-align: initial;
     }
 }
